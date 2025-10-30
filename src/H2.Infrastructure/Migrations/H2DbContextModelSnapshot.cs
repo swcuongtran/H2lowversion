@@ -22,6 +22,135 @@ namespace H2.Infrastructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("H2.Domain.Entities.Co2Data", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("GreenSensorDataId")
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("Ppm")
+                        .HasColumnType("double precision");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GreenSensorDataId")
+                        .IsUnique();
+
+                    b.ToTable("co2Datas");
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.EnvironmentData", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("AltitudeM")
+                        .HasColumnType("double precision");
+
+                    b.Property<Guid>("GreenSensorDataId")
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("HumidityPct")
+                        .HasPrecision(6, 2)
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("Lux")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("PressureHpa")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("TemperatureC")
+                        .HasPrecision(6, 2)
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("UvMwCm2")
+                        .HasColumnType("double precision");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GreenSensorDataId")
+                        .IsUnique();
+
+                    b.ToTable("environmentDatas");
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.GreenImage", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("DeviceId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("greenImages");
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.GreenImageDetected", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("DetectedImageUrl")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<string>("DeviceId")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("character varying(100)");
+
+                    b.Property<string>("Labels")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("character varying(500)");
+
+                    b.Property<Guid>("OriginalImageId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("ProcessedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("GreenImageDetected", (string)null);
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.GreenSensorData", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("DeviceId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("greenSensorDatas");
+                });
+
             modelBuilder.Entity("H2.Domain.Entities.SensorData", b =>
                 {
                     b.Property<Guid>("Id")
@@ -45,6 +174,48 @@ namespace H2.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("sensorDatas");
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.SoilData", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("EcUSCm")
+                        .HasColumnType("double precision");
+
+                    b.Property<Guid>("GreenSensorDataId")
+                        .HasColumnType("uuid");
+
+                    b.Property<double>("HumidityPct")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("K")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("N")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("P")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("Ph")
+                        .HasPrecision(4, 2)
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("SaltMgL")
+                        .HasColumnType("double precision");
+
+                    b.Property<double>("TemperatureC")
+                        .HasColumnType("double precision");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GreenSensorDataId")
+                        .IsUnique();
+
+                    b.ToTable("soilDatas");
                 });
 
             modelBuilder.Entity("H2.Domain.Entities.ThermalImage", b =>
@@ -71,6 +242,45 @@ namespace H2.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("thermalImages");
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.Co2Data", b =>
+                {
+                    b.HasOne("H2.Domain.Entities.GreenSensorData", null)
+                        .WithOne("Co2")
+                        .HasForeignKey("H2.Domain.Entities.Co2Data", "GreenSensorDataId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.EnvironmentData", b =>
+                {
+                    b.HasOne("H2.Domain.Entities.GreenSensorData", null)
+                        .WithOne("Environment")
+                        .HasForeignKey("H2.Domain.Entities.EnvironmentData", "GreenSensorDataId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.SoilData", b =>
+                {
+                    b.HasOne("H2.Domain.Entities.GreenSensorData", null)
+                        .WithOne("Soil")
+                        .HasForeignKey("H2.Domain.Entities.SoilData", "GreenSensorDataId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("H2.Domain.Entities.GreenSensorData", b =>
+                {
+                    b.Navigation("Co2")
+                        .IsRequired();
+
+                    b.Navigation("Environment")
+                        .IsRequired();
+
+                    b.Navigation("Soil")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

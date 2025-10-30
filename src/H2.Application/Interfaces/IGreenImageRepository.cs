@@ -9,5 +9,6 @@ namespace H2.Application.Interfaces
         Task AddAsync(GreenImage image);
         Task DeleteAsync(Guid id);
         Task SaveChangesAsync();
+        Task<GreenImage?> GetLatestByDeviceAsync(string deviceId);
     }
 }

@@ -8,6 +8,7 @@ using H2.Application.Interfaces;
 using H2_Infrastructure.Services;
 using Amazon.S3;
 using H2_Infrastructure.Persistence.Repositories;
+using H2.Infrastructure.Persistence.Repositories;
 
 namespace H2_Infrastructure
 {
@@ -36,6 +37,10 @@ namespace H2_Infrastructure
             });
             services.AddScoped<IThermalImageRepository, ThermalImageRepository>();
             services.AddScoped<ISensorDataRepository, SensorDataRepository>();
+            services.AddScoped<IGreenSensorDataRepository, GreenSensorDataRepository>();
+            services.AddScoped<IGreenImageRepository, GreenImageRepository>();
+            services.AddScoped<IGreenImageDetectedRepository, GreenImageDetectedRepository>();
+
 
             return services;
         }

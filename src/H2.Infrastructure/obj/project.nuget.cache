@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pk9BpUX//6o=",
+  "dgSpecHash": "RsJRPkTdRH8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\H2.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\H2.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.core\\4.0.0.14\\awssdk.core.4.0.0.14.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\awssdk.s3\\4.0.3.2\\awssdk.s3.4.0.3.2.nupkg.sha512",

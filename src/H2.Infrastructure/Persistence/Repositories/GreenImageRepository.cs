@@ -47,5 +47,12 @@ namespace H2.Infrastructure.Persistence.Repositories
         {
             await _context.SaveChangesAsync();
         }
+        public async Task<GreenImage?> GetLatestByDeviceAsync(string deviceId)
+        {
+            return await _context.greenImages
+                .Where(x => x.DeviceId == deviceId)
+                .OrderByDescending(x => x.Timestamp)
+                .FirstOrDefaultAsync();
+        }
     }
 }
