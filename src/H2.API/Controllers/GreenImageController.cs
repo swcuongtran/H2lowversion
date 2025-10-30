@@ -85,5 +85,23 @@ namespace H2.API.Controllers
             await _repository.SaveChangesAsync();
             return NoContent();
         }
+        [HttpGet("latest")]
+        public async Task<IActionResult> GetLatestByDevice([FromQuery] string deviceId)
+        {
+            if (string.IsNullOrWhiteSpace(deviceId))
+                return BadRequest("deviceId is required.");
+
+            var latest = await _repository.GetLatestByDeviceAsync(deviceId);
+            if (latest == null)
+                return NotFound($"No images found for deviceId = {deviceId}");
+
+            return Ok(new
+            {
+                deviceId = deviceId,
+                imageUrl = latest.ImageUrl,
+                timestamp = latest.Timestamp
+            });
+        }
+
     }
 }

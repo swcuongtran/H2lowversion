@@ -1,4 +1,5 @@
 ﻿using H2.Application.Interfaces;
+using H2.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,6 +44,20 @@ namespace H2.API.Controllers
                 pageSize,
                 data = list
             });
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] GreenImageDetected detected)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            detected.Id = Guid.NewGuid();
+            detected.ProcessedAt = DateTime.UtcNow;
+
+            await _repository.AddAsync(detected);
+            await _repository.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetById), new { id = detected.Id }, detected);
         }
     }
 }
