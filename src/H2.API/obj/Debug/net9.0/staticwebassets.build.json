@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "0+7VqT8EKBxSzPZJ1qDFTwWYmaSZPTZPQKmQBq3pnsQ=",
-  "Source": "H2.API",
-  "BasePath": "_content/H2.API",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"1esADFfhULBDQeJiGc2G3HzQAk8JkbB0j/z+camqZ30=","Source":"H2.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

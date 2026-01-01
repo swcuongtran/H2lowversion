@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\enums\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\enums\\imagetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -40,10 +48,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\migrations\\h2dbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,7 +169,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -173,20 +177,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GreenImageDetected.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
-              "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenImageDetected.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
-              "RelativeToolTip": "H2.Domain\\Entities\\GreenImageDetected.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ImageType.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Enums\\ImageType.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Enums\\ImageType.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Enums\\ImageType.cs",
+              "RelativeToolTip": "H2.Domain\\Enums\\ImageType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T09:29:30.583Z",
+              "WhenOpened": "2025-12-30T04:59:32.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "GreenImageController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenImageController.cs",
@@ -198,7 +202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IGreenImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenImageRepository.cs",
@@ -210,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "GreenImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
@@ -222,33 +226,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\appsettings.json",
               "RelativeDocumentMoniker": "H2.API\\appsettings.json",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\appsettings.json",
               "RelativeToolTip": "H2.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-02T16:52:53.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
               "ToolTip": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
               "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-02T17:07:44.597Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "ThermalImage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\ThermalImage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\ThermalImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:10:43.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GreenImageDetected.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenImageDetected.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\GreenImageDetected.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:29:30.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GreenImageDetectedController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageDetectedController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenImageDetectedController.cs",
@@ -260,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GreenImage.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImage.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenImage.cs",
@@ -272,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GreenImageDetectedRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
@@ -284,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "IGreenImageDetectedRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
@@ -296,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "H2DbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
@@ -308,19 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ThermalImage.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
-              "RelativeDocumentMoniker": "H2.Domain\\Entities\\ThermalImage.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
-              "RelativeToolTip": "H2.Domain\\Entities\\ThermalImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T03:10:43.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\DependencyInjection.cs",
@@ -332,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AIResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\AIResponse.cs",
               "RelativeDocumentMoniker": "H2.Application\\DTOs\\AIResponse.cs",
@@ -344,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "H2DbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\H2DbContext.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\H2DbContext.cs",
@@ -356,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ThermalImageController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\ThermalImageController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\ThermalImageController.cs",
@@ -368,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SensorController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\SensorController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\SensorController.cs",
@@ -380,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20251025072233_unknow.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ThermalImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "IThermalImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IThermalImageRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IThermalImageRepository.cs",
@@ -416,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "EnvironmentData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\EnvironmentData.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\EnvironmentData.cs",
@@ -428,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "Co2Data.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\Co2Data.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\Co2Data.cs",
@@ -440,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "GreenSensorData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenSensorData.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenSensorData.cs",
@@ -452,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "SensorData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SensorData.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\SensorData.cs",
@@ -464,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "GreenSensorDataController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenSensorDataController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenSensorDataController.cs",
@@ -476,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "SoilData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SoilData.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\SoilData.cs",
@@ -488,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "GreenSensorDataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
@@ -500,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IGreenSensorDataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
@@ -512,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Configuration\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "H2.API\\Configuration\\ServiceRegistration.cs",
@@ -524,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "SensorDataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
@@ -536,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "UploadSensorDataDTO.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
               "RelativeDocumentMoniker": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
@@ -548,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AwsS3Service.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Services\\AwsS3Service.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Services\\AwsS3Service.cs",
@@ -560,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Program.cs",
               "RelativeDocumentMoniker": "H2.API\\Program.cs",
@@ -572,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\AuthController.cs",
@@ -584,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "ISensorDataRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\ISensorDataRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\ISensorDataRepository.cs",
@@ -596,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "H2.Application\\DependencyInjection.cs",
@@ -608,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "UploadSensorDataHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Usecases\\UploadSensorDataHandler.cs",
               "RelativeDocumentMoniker": "H2.Application\\Usecases\\UploadSensorDataHandler.cs",
@@ -620,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "20250702165029_Init_H2Db.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
@@ -632,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Dockerfile",
               "RelativeDocumentMoniker": "H2.API\\Dockerfile",

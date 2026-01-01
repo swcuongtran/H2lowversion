@@ -1,0 +1,650 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\greenimagedetected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\greenimagedetected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\greenimagedetectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\greenimagedetectedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\greenimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\greenimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\greenimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\greenimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\repositories\\greenimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\repositories\\greenimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\interfaces\\igreenimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\igreenimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\repositories\\greenimagedetectedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\repositories\\greenimagedetectedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\thermalimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\migrations\\h2dbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\migrations\\h2dbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\h2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\h2dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\interfaces\\igreenimagedetectedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\igreenimagedetectedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\dtos\\airesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\dtos\\airesponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\thermalimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\thermalimagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\migrations\\20251025072233_unknow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\migrations\\20251025072233_unknow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\interfaces\\ithermalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\ithermalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\repositories\\thermalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\repositories\\thermalimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\soildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\soildata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\greensensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\greensensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\environmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\environmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\co2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\co2data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.domain\\entities\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\greensensordatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\greensensordatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\repositories\\greensensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\repositories\\greensensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\interfaces\\igreensensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\igreensensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\configuration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\configuration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\persistence\\repositories\\sensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\persistence\\repositories\\sensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\services\\awss3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\services\\awss3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\dtos\\uploadsensordatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\dtos\\uploadsensordatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\interfaces\\isensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\isensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.infrastructure\\migrations\\20250702165029_init_h2db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\migrations\\20250702165029_init_h2db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2lowversion\\src\\h2.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GreenImageDetected.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenImageDetected.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImageDetected.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\GreenImageDetected.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:29:30.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GreenImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenImageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\GreenImageController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwGEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:38:43.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGreenImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageRepository.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenImageRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageRepository.cs",
+              "RelativeToolTip": "H2.Application\\Interfaces\\IGreenImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:33:42.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GreenImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:34:08.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\appsettings.json",
+              "RelativeDocumentMoniker": "H2.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\appsettings.json",
+              "RelativeToolTip": "H2.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T16:52:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T17:07:44.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GreenImageDetectedController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageDetectedController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenImageDetectedController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenImageDetectedController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\GreenImageDetectedController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAUwDAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:34:51.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GreenImage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImage.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenImage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenImage.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\GreenImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:10:32.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GreenImageDetectedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\GreenImageDetectedRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwB8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:31:34.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IGreenImageDetectedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
+              "RelativeToolTip": "H2.Application\\Interfaces\\IGreenImageDetectedRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:30:13.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "H2DbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Migrations\\H2DbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:32:31.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThermalImage.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\ThermalImage.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\ThermalImage.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\ThermalImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:10:43.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "H2.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:54:16.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AIResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\AIResponse.cs",
+              "RelativeDocumentMoniker": "H2.Application\\DTOs\\AIResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\AIResponse.cs",
+              "RelativeToolTip": "H2.Application\\DTOs\\AIResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T09:26:34.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "H2DbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\H2DbContext.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\H2DbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\H2DbContext.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\H2DbContext.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAUwHEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:02:03.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ThermalImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\ThermalImageController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\ThermalImageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\ThermalImageController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\ThermalImageController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:55:01.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:25:26.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20251025072233_unknow.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Migrations\\20251025072233_unknow.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:22:36.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ThermalImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\ThermalImageRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:10:12.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IThermalImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IThermalImageRepository.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IThermalImageRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IThermalImageRepository.cs",
+              "RelativeToolTip": "H2.Application\\Interfaces\\IThermalImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:11:45.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EnvironmentData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\EnvironmentData.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\EnvironmentData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\EnvironmentData.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\EnvironmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:05:55.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Co2Data.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\Co2Data.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\Co2Data.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\Co2Data.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\Co2Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:06:16.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GreenSensorData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenSensorData.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\GreenSensorData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\GreenSensorData.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\GreenSensorData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:03:18.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SensorData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SensorData.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\SensorData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SensorData.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\SensorData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:12:17.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GreenSensorDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenSensorDataController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\GreenSensorDataController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\GreenSensorDataController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\GreenSensorDataController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:20:11.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SoilData.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SoilData.cs",
+              "RelativeDocumentMoniker": "H2.Domain\\Entities\\SoilData.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Domain\\Entities\\SoilData.cs",
+              "RelativeToolTip": "H2.Domain\\Entities\\SoilData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:06:39.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GreenSensorDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\GreenSensorDataRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:15:50.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IGreenSensorDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
+              "RelativeToolTip": "H2.Application\\Interfaces\\IGreenSensorDataRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:13:17.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Configuration\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "H2.API\\Configuration\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Configuration\\ServiceRegistration.cs",
+              "RelativeToolTip": "H2.API\\Configuration\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T03:11:33.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SensorDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAewCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:12:01.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UploadSensorDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "RelativeDocumentMoniker": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "RelativeToolTip": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:12:24.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AwsS3Service.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Services\\AwsS3Service.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Services\\AwsS3Service.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Services\\AwsS3Service.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Services\\AwsS3Service.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwBMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T16:58:29.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Program.cs",
+              "RelativeDocumentMoniker": "H2.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Program.cs",
+              "RelativeToolTip": "H2.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:40:12.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:04:04.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ISensorDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\ISensorDataRepository.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Interfaces\\ISensorDataRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Interfaces\\ISensorDataRepository.cs",
+              "RelativeToolTip": "H2.Application\\Interfaces\\ISensorDataRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:11:37.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "H2.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "H2.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T07:26:13.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UploadSensorDataHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Usecases\\UploadSensorDataHandler.cs",
+              "RelativeDocumentMoniker": "H2.Application\\Usecases\\UploadSensorDataHandler.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Application\\Usecases\\UploadSensorDataHandler.cs",
+              "RelativeToolTip": "H2.Application\\Usecases\\UploadSensorDataHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:08:35.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250702165029_Init_H2Db.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:40:58.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Dockerfile",
+              "RelativeDocumentMoniker": "H2.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2lowversion\\src\\H2.API\\Dockerfile",
+              "RelativeToolTip": "H2.API\\Dockerfile",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-02T16:52:17.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

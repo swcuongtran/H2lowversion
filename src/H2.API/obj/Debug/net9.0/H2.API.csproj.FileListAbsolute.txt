@@ -287,4 +287,4 @@ C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\refint\H2.API.dl
 C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\H2.API.pdb
 C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\H2.API.genruntimeconfig.cache
 C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\ref\H2.API.dll
-C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Admin\Desktop\H2lowversion\src\H2.API\obj\Debug\net9.0\swae.build.ex.cache
